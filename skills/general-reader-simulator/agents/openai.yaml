@@ -1,0 +1,4 @@
+interface:
+  display_name: "一般讀者模擬器"
+  short_description: "模擬一般讀者閱讀理解並分析論證斷點、問題及作者意圖落差"
+  default_prompt: "Use $general-reader-simulator to simulate a non-expert reader and identify the most important comprehension gaps in this text."
