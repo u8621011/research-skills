@@ -4,6 +4,18 @@ research skills，供學習 & 參考使用。
 
 ## 安裝方式
 
+### OpenAI Codex
+
+- 到 github release 下載 plugin zip 檔
+- 在 codex 裏面，到 設定（Setting）/外掛程式（Plugins）/瀏覽目錄（Browse directory）/上傳外掛程式封存檔（Upload plugin archive），開啟上傳視窗，並選擇要安裝的 zip 檔，按【Add plugin】後，選擇【安裝】
+
+### Claude Cowork
+
+- 到 github release 下載 plugin zip 檔
+- 在 cowork 裏面，到 設定（Settings）/外掛程式(Plugins)/瀏覽外掛程式(Browse plugins)/上傳外掛程式(Upload plugin)，開啟上傳頁面，在頁面中選擇要安裝的 zip 檔，按【上傳】。
+
+### 其他 Coding Agent（如 Claude code）
+
 有兩種安裝方式：
 
 - 以 public github repo 安裝，步驟：
