@@ -1,0 +1,35 @@
+{
+  "name": "research-skills",
+  "version": "0.1.0",
+  "description": "研究者用的 agent skills 集合：一般讀者模擬、論文選題輔導、研究需求釐清訪談。",
+  "author": {
+    "name": "Ted Chen",
+    "url": "https://www.research-ai.cc"
+  },
+  "homepage": "https://github.com/u8621011/research-skills",
+  "repository": "https://github.com/u8621011/research-skills",
+  "keywords": [
+    "research",
+    "thesis",
+    "academic",
+    "writing",
+    "skills",
+    "論文",
+    "研究"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Research Skills",
+    "shortDescription": "論文與研究工作流程的 agent skills",
+    "longDescription": "給碩博士生與研究者使用的 skills：模擬一般讀者找出文章的理解斷點與作者意圖落差（general-reader-simulator）、從模糊想法收斂出可行的論文題目（thesis-topic-navigator）、以半結構化訪談釐清研究想法並產出會議記錄（clarifying-research-needs）。",
+    "developerName": "Ted Chen",
+    "category": "Research",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://www.research-ai.cc",
+    "defaultPrompt": [
+      "Use $general-reader-simulator to simulate a non-expert reader and find the biggest comprehension gaps in my draft.",
+      "Use $thesis-topic-navigator to help me narrow my vague research interest into a feasible thesis topic.",
+      "Use $clarifying-research-needs to interview me and clarify my research idea."
+    ]
+  }
+}

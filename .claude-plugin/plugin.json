@@ -1,0 +1,20 @@
+{
+  "name": "research-skills",
+  "version": "0.1.0",
+  "description": "研究者用的 agent skills 集合：一般讀者模擬、論文選題輔導、研究需求釐清訪談。",
+  "author": {
+    "name": "Ted Chen",
+    "url": "https://www.research-ai.cc"
+  },
+  "homepage": "https://github.com/u8621011/research-skills",
+  "repository": "https://github.com/u8621011/research-skills",
+  "keywords": [
+    "research",
+    "thesis",
+    "academic",
+    "writing",
+    "skills",
+    "論文",
+    "研究"
+  ]
+}
